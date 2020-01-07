@@ -85,3 +85,14 @@ h1 {
   rid-template-areas:
     "note1 note2 note3 radio";
 }
+
+
+.centered {
+  position: relative;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
