@@ -1,9 +1,13 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
-
-// prints "hi" in the browser's dev tools console
 console.log("hi");
 
-
-
-document.getElementsByClassName('grid').style = "1fr 1fr 1fr";
+var a = 0;
+function changegrid() {
+  if (a == 0){
+    document.getElementById("grid").className = "grid2";
+    a = 1;
+  }
+  if (a == 1){
+    document.getElementById("grid").className = "grid";
+    a = 0;
+  }
+}

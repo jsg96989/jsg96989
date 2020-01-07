@@ -21,6 +21,16 @@ h1 {
     "footer footer footer";
 }
 
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "center1 . center2"
+    "footer footer footer";
+}
+
 
 .grid-container > div {
   
