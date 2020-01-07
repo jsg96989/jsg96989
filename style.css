@@ -78,6 +78,7 @@ h1 {
 .grid3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px;
   rid-template-areas:
-    "note note note radio";
+    "note1 note2 note3 radio";
 }
