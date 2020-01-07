@@ -13,12 +13,13 @@ h1 {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 5fr 5fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    "header header header"
-    "center1 . center2"
-    "footer footer footer";
+    "header header header header"
+    "center1 center1 center2 center2"
+    "f1 f2 f3 f4"
+    "footer footer footer footer";
 }
 
 .grid2 {
@@ -40,7 +41,7 @@ h1 {
 
 .gridpart {
   text-align:center;
-  background-color:red;
+  background-color:black;
   justify-self:stretch;
   align-self:stretch;
 }
