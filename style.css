@@ -17,7 +17,8 @@ h1 {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "header header header header"
-    "center1 center1 center2 center2"
+    "center1 center1 center1 center1"
+    "center2 center2 center2 center2"
     "f1 f2 f3 f4"
     "footer footer footer footer";
 }
@@ -59,4 +60,24 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+.p2 {
+  backgournd-image: url(https://cdn.glitch.com/c6684ea7-82fe-4b1f-8b9e-00eac35d3188%2FforP2.png?v=1578430696263);
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  rid-template-areas:
+    "note note note radio";
 }
