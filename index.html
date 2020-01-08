@@ -17,6 +17,7 @@
       </center>
     </div>
     
+    <!--Desktop bar-->
     <div id="bar" class="w3-bar w3-black hideMeOnMobile w3-top" style="position:sticky;top:0;">
       <div class="hideMeOnMobile"><div id="SGDLogo"></div></div>
       <a class="w3-bar-item w3-button w3-hover-green">Schedule</a>
@@ -30,7 +31,7 @@
     </div>
     
     <!--Mobile bar-->
-    <div id="barM" class="w3bar w3-green hideMeOnDesktop" style="position:sticky;top:0;height:75px;background-color:#8AEC7F;">
+    <div id="barM" class="w3bar w3-green hideMeOnDesktop" style="position:sticky;top:0;height:75px;background-color:#8AEC7F;z=5;">
       <img src="https://cdn.glitch.com/c4a0aec9-279e-4574-bc4c-91d4ed8f1339%2FTop%20Logo2000.png?v=1577550712392" style="height:75px;" href="www.google.com" class="w3-bar-item w3-hover-green"/>
       <button class="w3-button w3-xlarge w3-right w3-hide-large" style="height:75px;" onclick="openDropdown()">&#9776;</button>
     </div>
@@ -40,11 +41,11 @@
         <a class="w3-bar-item w3-button w3-hover-green">Schedule</a>
         <a class="w3-bar-item w3-button w3-hover-green">Previous Episodes</a>
         <a class="w3-bar-item w3-button w3-hover-green">Ask the Mad Prophet</a>
-        <a class="w3-bar-item w3-button w3-hover-green">Request a song</a>
       </div>
     </div>
     
     
+    <!--Parallax Mobile-->
     <div class="parallax hideMeOnMobile" style="height:700px;">
       <div style="height:300px;"></div>
       <center><div style="background-color:black;width:600px;height:70px;line-height:70px;border-radius:25px;">
@@ -54,6 +55,7 @@
       </div></center>
     </div>
     
+    <!--Parallax Desktop-->
     <div class="parallax hideMeOnDesktop" style="height:300px;">
       <div style="height:100px;"></div>
       <center><div style="background-color:black;width:100%;height:70px;line-height:70px;">
@@ -71,12 +73,12 @@
           <h1 style="z=1;color:black;font-size:350%;">Live Thursdays 5-6 pm on WMUC FM!</h1>
         </div>
       </div></center>
-      <center class="centered"><a>Live Thursdays 5-6 pm on WMUC FM!</a></center>
+      <center class="centered"><h1 style="font-size:100%;color:black;">Live Thursdays 5-6 pm on WMUC FM!</h1></center>
     </div>
     
     <div class="w3-row" style="background-color:#a6a6a6;border-style:solid;border-width:3px;">
       <div class="w3-third">
-        <img src="https://cdn.glitch.com/c6684ea7-82fe-4b1f-8b9e-00eac35d3188%2Fqm.png?v=1578439622341" style="width:100%;">
+        <img class="hideMeOnMobile" src="https://cdn.glitch.com/c6684ea7-82fe-4b1f-8b9e-00eac35d3188%2Fqm.png?v=1578439622341" style="width:100%;">
       </div>
       <div class="w3-twothirds">
         <h1>What is Prog Rock?</h1>
@@ -91,12 +93,69 @@
     </div>
     
     <div class="parallax2 container" style="height:350px;">
-      <div class="centered" style="background-color:black;width:475px;height:70px;line-height:70px;border-radius:25px;"></div>
+      <div class="centered hideMeOnMobile" style="background-color:black;width:475px;height:70px;line-height:70px;border-radius:25px;"></div>
+      <div class="centered hideMeOnDesktop" style="background-color:black;width:100%;height:170px;line-height:70px;"></div>
       <a href="www.google.com" class="centered" style="color:red;font-size:90%"><h1>Download the listener here!</h1></a>
     </div>
   </body>
   
-  <footer class="w3-grey w3-padding-16">
+  <footer class="w3-grey w3-padding-16 hideMeOnMobile">
+    <div class="w3-grey w3-quarter">
+      <img src= "https://cdn.glitch.com/c4a0aec9-279e-4574-bc4c-91d4ed8f1339%2FTEMP_02.png?v=1577309503635" style="width:300px;top:0px;">
+    </div>
+    <div class="w3-grey w3-quarter">
+      <h1>About</h1>
+      <p></p>
+      <a>Schedule</a>
+      <p></p>
+      <a>stuff and things</a>
+      <p></p>
+      <a>Contact Us</a>
+      <p></p>
+      <a
+        href="https://www.instagram.com/the_progress_report_wmuc/"
+        ><img
+          src="https://cdn.glitch.com/c4a0aec9-279e-4574-bc4c-91d4ed8f1339%2FInstagram%20Logo.png?v=1572125726043"
+          style="height:15px"
+      /></a>
+    </div>
+    <div class="w3-grey w3-quarter">
+      <h1>Spotify</h1>
+      <iframe src="https://open.spotify.com/embed/playlist/5mqgkKMyZ1MNRYrNyF6P4e" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    <div class="w3-grey w3-quarter">
+      <h1>Instagram</h1>
+      <div class="footergrid">
+        <div style="background-color:black;height:150px;width:150px;">
+          <a href="https://www.instagram.com/p/B5qqyf3BnAK/"><img alt="No photo description available." class="FFVAD" decoding="auto" style="object-fit: cover;" sizes="150px" srcset="https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/75352125_563206990923896_1300477871281769592_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_cat=108&amp;_nc_ohc=bA_CP1XSHfEAX_h0YQb&amp;oh=cfdd846ee136bbcb517f362110f0b30d&amp;oe=5EB05230 640w,https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s750x750/75352125_563206990923896_1300477871281769592_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_cat=108&amp;_nc_ohc=bA_CP1XSHfEAX_h0YQb&amp;oh=360cd2dddacc0b9a0b1c753a14f223a8&amp;oe=5EAA9030 750w,https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/75352125_563206990923896_1300477871281769592_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_cat=108&amp;_nc_ohc=bA_CP1XSHfEAX_h0YQb&amp;oh=fb0905ee54c8761b1e55ba682005265d&amp;oe=5EA79D87 1080w" src="https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/75352125_563206990923896_1300477871281769592_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_cat=108&amp;_nc_ohc=bA_CP1XSHfEAX_h0YQb&amp;oh=fb0905ee54c8761b1e55ba682005265d&amp;oe=5EA79D87"></a>
+        </div>
+        <div style="background-color:black;height:150px;width:150px;">
+          <a href="https://www.instagram.com/p/B396vBpBxYV/"><img alt="Image may contain: possible text that says 'no rules no gods just me and the yeehaws'" class="FFVAD" decoding="auto" style="object-fit: cover;" sizes="150px" srcset="https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/75601615_160040318418772_7043944046503467311_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_cat=104&amp;_nc_ohc=mkGthN0sR20AX8xKjaT&amp;oh=245b6d2b9864365803dd12890b9bfb7b&amp;oe=5E8E43CA 640w,https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/e35/75601615_160040318418772_7043944046503467311_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_cat=104&amp;_nc_ohc=mkGthN0sR20AX8xKjaT&amp;oh=add2adc4b0e11dd0fbc68ba6f34bd388&amp;oe=5E8E6E2F 750w,https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/e35/75601615_160040318418772_7043944046503467311_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_cat=104&amp;_nc_ohc=mkGthN0sR20AX8xKjaT&amp;oh=add2adc4b0e11dd0fbc68ba6f34bd388&amp;oe=5E8E6E2F 1080w" src="https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/e35/75601615_160040318418772_7043944046503467311_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_cat=104&amp;_nc_ohc=mkGthN0sR20AX8xKjaT&amp;oh=add2adc4b0e11dd0fbc68ba6f34bd388&amp;oe=5E8E6E2F"></a>
+        </div>
+        <div style="background-color:black;height:150px;width:150px;">
+          <a href="https://www.instagram.com/p/Buo4j3ul_hp/"><img alt="Image may contain: 2 people" class="FFVAD" decoding="auto" style="object-fit: cover;" sizes="500px" srcset="https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/e35/53546073_2259301197730097_3294985358554521059_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_cat=105&amp;_nc_ohc=2h9KY4nKzMsAX8s8EK7&amp;oh=e361a3b02cd45ec04f455a9faec37dbc&amp;oe=5E98355D 640w,https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/e35/53546073_2259301197730097_3294985358554521059_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_cat=105&amp;_nc_ohc=2h9KY4nKzMsAX8s8EK7&amp;oh=e361a3b02cd45ec04f455a9faec37dbc&amp;oe=5E98355D 750w,https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/e35/53546073_2259301197730097_3294985358554521059_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_cat=105&amp;_nc_ohc=2h9KY4nKzMsAX8s8EK7&amp;oh=e361a3b02cd45ec04f455a9faec37dbc&amp;oe=5E98355D 1080w" src="https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/e35/53546073_2259301197730097_3294985358554521059_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&amp;_nc_cat=105&amp;_nc_ohc=2h9KY4nKzMsAX8s8EK7&amp;oh=e361a3b02cd45ec04f455a9faec37dbc&amp;oe=5E98355D"></a>
+        </div>
+        <div style="background-color:black;height:150px;width:150px;">
+          <a href="https://www.instagram.com/p/Bo-m9EhA837/"><img alt="No photo description available." class="FFVAD" decoding="auto" style="object-fit: cover;" sizes="150px" srcset="https://scontent-lax3-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/43015378_342607966285439_925624091347498201_n.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_cat=111&amp;_nc_ohc=m2e0nI0VQtYAX9SqRk_&amp;oh=c608886bd307f4b7eebda99505501eb1&amp;oe=5E8D4484 640w,https://scontent-lax3-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s750x750/43015378_342607966285439_925624091347498201_n.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_cat=111&amp;_nc_ohc=m2e0nI0VQtYAX9SqRk_&amp;oh=97645ba9ea26aa3ecca60356d9c60dc1&amp;oe=5EB2B77B 750w,https://scontent-lax3-2.cdninstagram.com/v/t51.2885-15/e35/43015378_342607966285439_925624091347498201_n.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_cat=111&amp;_nc_ohc=m2e0nI0VQtYAX9SqRk_&amp;oh=117a37100c964ec4fb00e0f4865df77d&amp;oe=5E9987F7 1080w" src="https://scontent-lax3-2.cdninstagram.com/v/t51.2885-15/e35/43015378_342607966285439_925624091347498201_n.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com&amp;_nc_cat=111&amp;_nc_ohc=m2e0nI0VQtYAX9SqRk_&amp;oh=117a37100c964ec4fb00e0f4865df77d&amp;oe=5E9987F7"></a>  
+        </div>
+      </div>
+      <p></p>
+      <a href="https://www.instagram.com/the_progress_report_wmuc/">
+        <button style="width:310px;height:50px;">
+          Follow Us!
+        </button>
+      </a>
+    </div>
+    <div class="w3-row">
+      <a href="https://glitch.com" class="w3-button w3-hover-green">Special thanks to Glitch!</a>
+      <a href="http://www.wmuc.umd.edu/" class="w3-button w3-hover-green">
+        Powerd by:
+        <img src="https://cdn.glitch.com/c4a0aec9-279e-4574-bc4c-91d4ed8f1339%2FWMCU%20Logo.png?v=1572311957160" style="height:13px"/>
+      </a>
+      <a>This message approved by THE MAD PROFFET</a>
+    </div>
+  </footer>
+  <footer class="w3-grey w3-padding-16 hideMeOnDesktop">
     <div class="w3-grey w3-quarter">
       <img src= "https://cdn.glitch.com/c4a0aec9-279e-4574-bc4c-91d4ed8f1339%2FTEMP_02.png?v=1577309503635" style="width:300px;top:0px;">
     </div>
