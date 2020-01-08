@@ -14,11 +14,8 @@ h1 {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 2fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas:
-    "header header header header"
-    "center1 center1 center1 center1"
-    "center2 center2 center2 center2"
     "f1 f2 f3 f4"
     "footer footer footer footer";
 }
@@ -42,7 +39,6 @@ h1 {
 
 .gridpart {
   text-align:center;
-  background-color:black;
   justify-self:stretch;
   align-self:stretch;
 }
@@ -95,4 +91,13 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+
+
+.footergrid {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-template-rows: 150px 150px;
+  grid-gap: 10px;
 }
