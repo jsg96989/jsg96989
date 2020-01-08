@@ -12,3 +12,21 @@ function changegrid() {
     a = 0;
   }
 }
+
+
+window.onscroll = function() {
+  myFunction()
+};
+
+var SGDLogo = document.getElementById("SGDLogo");
+var Logo = document.getElementById("bar").offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= Logo) {
+    if (SGDLogo.innerHTML == ""){
+      SGDLogo.innerHTML = '<a href="https://theprogressreport.glitch.me/"><button class="w3-bar-item w3-button w3-red w3-hover-red w3-animate-left"><txt href="https://theprogressreport.glitch.me/" style="color:white;">The Progess Report</txt></button></a>';
+    }
+  } else {
+    SGDLogo.innerHTML = "";
+  }
+}
