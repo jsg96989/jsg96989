@@ -6,20 +6,19 @@ var dates = [
 ];
 
 var links = [
-  "www.google.com",
-  "www.google.com",
-  "www.google.com",
-  "www.google.com",
+  "https://open.spotify.com/embed/playlist/5mqgkKMyZ1MNRYrNyF6P4e",
+  "https://open.spotify.com/embed/playlist/5mqgkKMyZ1MNRYrNyF6P4e",
+  "https://open.spotify.com/embed/playlist/5mqgkKMyZ1MNRYrNyF6P4e",
+  "https://open.spotify.com/embed/playlist/5mqgkKMyZ1MNRYrNyF6P4e",
 ];
 
 
 function loadPreviousEpisodes() {
-  var a = "<button class='dropdown-btn'>Dropdown 
-              <i class='fa fa-caret-down'></i>
-            </button>
-            <div class='dropdown-container'>
-              <iframe src='https://open.spotify.com/embed/playlist/5mqgkKMyZ1MNRYrNyF6P4e' width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            </div>";
+  var HTML = '';
+  for (var i = 0; i < 4; i++) {
+    HTML += '<button class="dropdown-btn" style="color:black;">' + dates[i] + '<i class="fa fa-caret-down"></i></button><div class="dropdown-container"><iframe src="' + links[i] + '" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>';
+  }
+  document.getElementById("allTheStuff").innerHTML = HTML;
 }
 
 loadPreviousEpisodes();
