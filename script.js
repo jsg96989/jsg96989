@@ -50,4 +50,6 @@ function closeDropdown() {
   //window.scrollTo(0, scrollPos);
 }
 
-
+function swapText() {
+  
+}
