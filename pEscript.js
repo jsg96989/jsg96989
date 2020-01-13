@@ -60,3 +60,23 @@ function myFunction() {
   }
 }
 
+
+
+document.getElementById("mySidebar").style.display = "none";
+
+function openDropdown() {
+  if (document.getElementById("mySidebar").style.display != "none"){
+    document.getElementById("mySidebar").style.display = "none";
+    //document.getElementById("barM").style.display = "block";
+  } else {
+    document.getElementById("mySidebar").style.display = "block";
+    //document.getElementById("barM").style.display = "none";
+  }
+}
+
+function closeDropdown() {
+  document.getElementById("mySidebar").style.display = "none";
+  //document.getElementById("barM").style.display = "block";
+  //window.scrollTo(0, scrollPos);
+}
+
